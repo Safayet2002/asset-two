@@ -122,6 +122,65 @@ ul li a{
     align-items: stretch;
     flex-direction: column;
 }
+/* End Header Content Styles */
 
 
-/* Start Header Content Styles */
+
+
+/* Start Main Styles */
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Start our features section style */
+.our-features{
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 75px;
+    align-items: center;
+}
+.feature-view{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+h3 .q-list{
+    color:#727272;
+    font-size: 45px;
+    font-weight: 400;
+}
+h3 .o-our{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+h3 .f-feature{
+    color:#FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.paragraph-text{
+    margin-top: 24px;
+}
+/* End our features section style */
+
+
+
+/* Start love-and-enjoy section style */
+.love-and-enjoy{
+    margin-top: 130px;
+}
+/* End love-and-enjoy section style */
+
+
+
+/* End main Styles */
