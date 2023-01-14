@@ -8,10 +8,27 @@
 
 
 
+/* Start Universal Selector */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* End Universal Selector */
+
+
+
+
+
 /* Start Html Tag Styles */
 
 body{
-    font-family: 'Work Sans', sans-serif;  
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 /* End Html Tag Styles */
@@ -22,3 +39,38 @@ body{
 
 /* Start Common Styles */
 /* End Common Styles */
+
+
+
+
+
+/* Start Menu Styles */
+.header{
+    margin-top: 50px;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h1{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.menu-item ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 75px;
+}
+
+/* End Menu Styles */

@@ -1,0 +1,14 @@
+/* small mobile */
+
+@media only screen and (max-width:576px) {
+    .main-menu{
+        flex-direction: column;
+    }
+    ul li a{
+        margin-left: 25px;
+    }
+    .menu-item ul {
+        display: flex;
+        padding: 0;
+    }
+}
