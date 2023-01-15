@@ -325,7 +325,30 @@ h3 .f-feature{
     margin-top: 50px;
 }
 /* End Our sponsors section style */
-
-
-
 /* End main Styles */
+
+
+
+/* Start Footer Styles */
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    background-color: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}
+/* End Footer Styles */
