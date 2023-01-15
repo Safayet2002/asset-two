@@ -3,6 +3,7 @@
 @media only screen and (max-width:688px) {
     .main-menu{
         flex-direction: column;
+        padding: 0 25px;
     }
     ul li a{
         margin-left: 25px;
@@ -41,6 +42,48 @@
         text-align: center;
         padding: 0 25px;
     }
+
+    .love-and-enjoy{
+        padding: 0 25px;
+    }
+    .love-enjoy{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        justify-items: center;
+    }
+    .love-paragraph{
+    width: 100%;
+}
+    .topic{
+        width: 100%;
+    }
+    .architect{
+    position: relative;
+    left: 0;
+}
+    .architect img{
+        width: 100%;
+
+    }
+    .yr-btn{
+    position: relative;
+    top: -25%;
+    left: 05%;
+    }
+    .yr-btn p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+}
+
 }
 
 
@@ -82,4 +125,54 @@
         text-align: center;
         padding: 0 25px;
     }
+
+    .love-and-enjoy{
+        margin-top: 60px;
+    }
+    .love-enjoy{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
+
+    .love-and-enjoy{
+        padding: 0 25px;
+    }
+    .love-enjoy{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        justify-items: center;
+    }
+    .love-paragraph{
+    width: 100%;
+}
+    .topic{
+        width: 100%;
+    }
+    .architect{
+    position: relative;
+    left: 0;
+}
+    .architect img{
+        width: 100%;
+
+    }
+    .yr-btn{
+    position: relative;
+    top: -25%;
+    left: 0%;
+    }
+    .yr-btn p{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+}
 }
