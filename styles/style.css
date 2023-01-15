@@ -225,6 +225,7 @@ h3 .f-feature{
     left: 100px;
 }
 
+
 .yr-btn{
     width: 342px;
     height: 200px;
@@ -298,6 +299,32 @@ h3 .f-feature{
     margin-top: 5px;
 }
 /* End facts section style */
+
+
+
+
+
+/* Start Our sponsors section style */
+.sponsors{
+    margin-top: 180px;
+}
+.sponsors-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+}
+.sponsors-text{
+    text-align: center;
+    justify-content: center;
+}
+.sponsors-brands{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+/* End Our sponsors section style */
 
 
 
