@@ -6,7 +6,7 @@
         padding: 0 25px;
     }
     ul li a{
-        margin-left: 25px;
+        margin-left: 20px;
     }
     .menu-item ul {
         display: flex;
@@ -106,10 +106,20 @@
         justify-items: center;
     }
 
+    .images{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap:25px;
+        justify-items: center;
+    }
+
+    
     .footer{
         width: 100%;
         padding: 0 25px;
     }
+
 
 
 }
@@ -223,6 +233,13 @@
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 50px;
         margin-top: 50px;
+        justify-items: center;
+    }
+    .images{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap:25px;
         justify-items: center;
     }
     .footer{

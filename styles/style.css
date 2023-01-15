@@ -276,6 +276,9 @@ h3 .f-feature{
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
+.box:hover{
+    background-color: #FFF4E7;
+}
 .box img{
     width: 45px;
     height: 45px;
@@ -322,6 +325,49 @@ h3 .f-feature{
 }
 /* End Our sponsors section style */
 /* End main Styles */
+
+
+
+
+/* Start portfolio Section Styles */
+.skills-title{
+    margin-top: 130px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+}
+.skills-color{
+    color: #FF900E;
+}
+.images{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:25px;
+}
+.images img{
+    width: 360px;
+    height: 202.47px;
+}
+.image-1:hover{
+    transform: scale(200%);
+    transition: 0.5s;
+}
+.image-2:hover{
+    transform: scale(200%);
+    transition: 0.5s;
+}
+.image-3:hover{
+    transform: scale(200%);
+    transition: 0.5s;
+}
+.image-4:hover{
+    transform: scale(200%);
+    transition: 0.5s;
+}
+/* End portfolio Section Styles */
 
 
 
