@@ -70,7 +70,7 @@
     .yr-btn{
     position: relative;
     top: -25%;
-    left: 05%;
+    left: 0%;
     }
     .yr-btn p{
     color: #fff;
@@ -82,7 +82,22 @@
     border: none;
     border-radius: 8px;
     padding: 14px;
-}
+    }
+
+    .facts-title{
+        text-align: center;
+        align-items: center;
+    }
+    .facts-paragraph{
+        text-align: center;
+    }
+
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
 
 }
 
@@ -174,5 +189,19 @@
     border: none;
     border-radius: 8px;
     padding: 24px;
-}
+    }
+
+    .facts-title{
+        text-align: center;
+        align-items: center;
+    }
+    .facts-paragraph{
+        text-align: center;
+    }
+
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 }
