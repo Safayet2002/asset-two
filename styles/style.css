@@ -220,14 +220,13 @@ h3 .f-feature{
 
 .architect{
     position: relative;
-    left: 100px;
 }
 .yr-btn{
     width: 342px;
     height: 200px;
     position: relative;
     top: -100px;
-    left: -100px;  
+    left: -50px;  
 }
 .yr-btn p{
     color: #fff;
